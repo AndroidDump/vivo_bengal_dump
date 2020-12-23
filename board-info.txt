@@ -1,0 +1,3 @@
+require version-baseband=1.0.c1.1-00011-KAMORTA_GEN_PACK-1.329152.1.336373.1
+require version-trustzone=TZ.XF.5.1-00736-2
+require version-vendor=1604389652

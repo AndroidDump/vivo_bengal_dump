@@ -1,0 +1,13 @@
+# bengal-user 10 QP1A.190711.020 compiler11031550 release-keys
+- manufacturer: 
+- platform: bengal
+- codename: bengal
+- flavor: bengal-user
+- release: 10
+- id: QP1A.190711.020
+- incremental: compiler11031550
+- tags: release-keys
+- fingerprint: vivo/2028_EEA/2028:10/QP1A.190711.020/compiler11031550:user/release-keys
+- brand: vivo
+- branch: bengal-user-10-QP1A.190711.020-compiler11031550-release-keys
+- repo: vivo_bengal_dump
