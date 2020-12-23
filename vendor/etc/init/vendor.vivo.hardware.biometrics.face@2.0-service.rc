@@ -1,0 +1,7 @@
+on boot
+    setprop sys.face.detect 1
+    mkdir /data/vendor/faceunlock 0775 system system
+service biometrics-face /vendor/bin/hw/vendor.vivo.hardware.biometrics.face@2.0-service
+    class hal
+    user system
+    group system sdcard_rw
