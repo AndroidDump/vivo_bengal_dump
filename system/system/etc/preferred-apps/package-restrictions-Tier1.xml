@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferred-activities>
+	<item name="com.android.chrome/com.google.android.apps.chrome.IntentDispatcher">
+		<filter>
+			<action name="android.intent.action.VIEW" />
+			<cat name="android.intent.category.DEFAULT" />
+			<scheme name="http" />
+		</filter>
+		<filter>
+			<action name="android.intent.action.VIEW" />
+			<cat name="android.intent.category.DEFAULT" />
+			<scheme name="https" />
+		</filter>
+		<filter>
+			<action name="android.intent.action.VIEW" />
+			<cat name="android.intent.category.DEFAULT" />
+			<cat name="android.intent.category.BROWSABLE" />
+			<scheme name="http" />
+		</filter>
+		<filter>
+			<action name="android.intent.action.VIEW" />
+			<cat name="android.intent.category.DEFAULT" />
+			<cat name="android.intent.category.BROWSABLE" />
+			<scheme name="https" />
+		</filter>
+	</item>
+	<item name="com.google.android.apps.messaging/.ui.conversation.LaunchConversationActivity">
+		<filter>
+			<action name="android.intent.action.SENDTO" />
+			<cat name="android.intent.category.DEFAULT" />
+			<scheme name="mms" />
+		</filter>
+		<filter>
+			<action name="android.intent.action.SENDTO" />
+			<cat name="android.intent.category.DEFAULT" />
+			<scheme name="sms" />
+		</filter>
+		<filter>
+			<action name="android.intent.action.SENDTO" />
+			<cat name="android.intent.category.DEFAULT" />
+			<scheme name="mmsto" />
+		</filter>
+		<filter>
+			<action name="android.intent.action.SENDTO" />
+			<cat name="android.intent.category.DEFAULT" />
+			<scheme name="smsto" />
+		</filter>
+	</item>
+	<item name="com.google.android.dialer/com.android.dialer.main.impl.MainActivity">
+		<filter>
+			<action name="android.intent.action.DIAL" />
+			<cat name="android.intent.category.DEFAULT" />
+		</filter>
+	</item>
+	<item name="com.android.vending/com.google.android.finsky.activities.LaunchUrlHandlerActivity">
+		<filter>
+			<action name="android.intent.action.VIEW" />
+			<cat name="android.intent.category.DEFAULT" />
+			<scheme name="market" />
+			<auth host="details" />
+		</filter>
+	</item>
+</preferred-activities>

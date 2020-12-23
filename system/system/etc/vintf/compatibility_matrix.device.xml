@@ -1,0 +1,238 @@
+<!--
+    Input:
+        common_compatibility_matrix.xml
+        qcom_common_compatibility_matrix.xml
+        biometrics_face_compatibility_matrix.xml
+-->
+<compatibility-matrix version="1.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.bbkts</name>
+        <version>1.0</version>
+        <interface>
+            <name>IBbkts</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.vivo.hardware.biometrics.analysis</name>
+        <version>1.0</version>
+        <interface>
+            <name>IAnalysis</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.biometrics.face</name>
+        <version>2.0</version>
+        <interface>
+            <name>IBiometricsFace</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.biometrics.face_native</name>
+        <version>2.1</version>
+        <interface>
+            <name>INativeBiometricsFace</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.vivo.hardware.biometrics.fingerprint</name>
+        <version>2.1</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.camera.cameralog</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICameraLogSystem</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.camera.provider</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVivoCameraProvider</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.camera3rd.provider</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICamera3rdProvider</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.camera3rd.provider</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICamera3rdProvider</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.capacity_key</name>
+        <version>1.0</version>
+        <interface>
+            <name>ICapacityKey</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.configstore</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVivoConfigStore</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.dualleds</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDualleds</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.eid</name>
+        <version>1.0</version>
+        <interface>
+            <name>IEidDevice</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.lcmctl</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILcmCtl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.nativecamera.provider</name>
+        <version>1.0</version>
+        <interface>
+            <name>INativeCameraProvider</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.omnipotentservice</name>
+        <version>1.0</version>
+        <interface>
+            <name>IOmnipotentService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.ringleds</name>
+        <version>1.0</version>
+        <interface>
+            <name>IRingleds</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.vivo.hardware.sectee</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISecTee</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.sensorfactory</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISensorFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>vendor.vivo.hardware.slad</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISlad</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.vcode</name>
+        <version>1.0</version>
+        <interface>
+            <name>IEventTransfer</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IVcode</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.vdtf</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVdtf</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.vibrator_hall</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVib_Hall</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.vperf</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVPerf</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.wifi.hostapd</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVivoHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.wifi.keystore</name>
+        <version>1.0</version>
+        <interface>
+            <name>IKeystoreExt</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.vivo.hardware.wifi.wifivendorsta</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVivoWifiVendorStaIface</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <sepolicy>
+        <kernel-sepolicy-version>30</kernel-sepolicy-version>
+        <sepolicy-version>26.0</sepolicy-version>
+        <sepolicy-version>27.0</sepolicy-version>
+        <sepolicy-version>28.0</sepolicy-version>
+        <sepolicy-version>29.0</sepolicy-version>
+    </sepolicy>
+    <avb>
+        <vbmeta-version>1.0</vbmeta-version>
+    </avb>
+</compatibility-matrix>
